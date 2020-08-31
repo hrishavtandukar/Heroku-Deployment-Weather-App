@@ -27,7 +27,9 @@ SECRET_KEY = '(h_bg(_=(gagbfcn#17q@lops%@fq2y46io@fos1mfcu)$sokf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['deploy-weather-application.herokuapp.com']
+ALLOWED_HOSTS = ['https://deploy-weather-application.herokuapp.com',
+'localhost',
+'127.0.0.1']
 
 
 # Application definition
